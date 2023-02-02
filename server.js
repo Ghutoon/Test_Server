@@ -14,15 +14,12 @@ exp.get("/", (req, res) => {
   logger.log("debug", "Hello, \n\n\nWorld!");
   logger.log(
     "debug",
-    `test
-  
-  12345
-  abcde`
+    `test 12345 \n\nabcde`
   );
   logger.debug("The is the home '/' route.");
   res.send("Hello World");
 });
 
-exp.listen(port, () => {
+exp.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
