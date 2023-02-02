@@ -2,5 +2,23 @@
   "dependencies": {
     "express": "^4.18.2",
     "winston": "^3.8.2"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "test_server",
+  "version": "1.0.0",
+  "main": "logger.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghutoon/Test_Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghutoon/Test_Server/issues"
+  },
+  "homepage": "https://github.com/Ghutoon/Test_Server#readme",
+  "description": ""
 }
